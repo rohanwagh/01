@@ -119,7 +119,7 @@ public class TestBase {
 	
 	public ArrayList<ArrayList<String>> readLoginData(String sheetName) throws IOException
 	{
-		File file =    new File(config.getProperty("excelDataFilePath")+config.getProperty("excelDataFileName"));
+		File file =    new File(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\excel\\testData.xlsx");
 		FileInputStream inputStream = new FileInputStream(file);
 		Workbook testData = new XSSFWorkbook(inputStream);
 		Sheet sheet = testData.getSheet(sheetName);
