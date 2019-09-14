@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="24" total="31" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9298" started-at="2019-09-13T10:48:03 PDT" finished-at="2019-09-13T10:48:12 PDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9298" started-at="2019-09-13T10:48:03 PDT" finished-at="2019-09-13T10:48:12 PDT">
+      <class name="com.rohan.testcases.LogoutTest">
+        <test-method status="PASS" signature="initializeExtentTest()[pri:0, instance:com.rohan.testcases.LogoutTest@6913c1fb]" name="initializeExtentTest" is-config="true" duration-ms="0" started-at="2019-09-13T10:48:09 PDT" finished-at="2019-09-13T10:48:09 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtentTest -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.rohan.testcases.LogoutTest@6913c1fb]" name="logOut" duration-ms="2397" started-at="2019-09-13T10:48:09 PDT" depends-on-methods="com.rohan.testcases.LoginTest.logIn" finished-at="2019-09-13T10:48:11 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="endExtentTest()[pri:0, instance:com.rohan.testcases.LogoutTest@6913c1fb]" name="endExtentTest" is-config="true" duration-ms="1" started-at="2019-09-13T10:48:11 PDT" finished-at="2019-09-13T10:48:11 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtentTest -->
+      </class> <!-- com.rohan.testcases.LogoutTest -->
+      <class name="com.rohan.testcases.LoginTest">
+        <test-method status="PASS" signature="initializeExtentReports()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="initializeExtentReports" is-config="true" duration-ms="199" started-at="2019-09-13T10:47:52 PDT" finished-at="2019-09-13T10:47:52 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtentReports -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="setUp" is-config="true" duration-ms="10830" started-at="2019-09-13T10:47:52 PDT" finished-at="2019-09-13T10:48:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializeExtentTest()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="initializeExtentTest" is-config="true" duration-ms="6" started-at="2019-09-13T10:48:03 PDT" finished-at="2019-09-13T10:48:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtentTest -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="logIn" duration-ms="6018" started-at="2019-09-13T10:48:03 PDT" finished-at="2019-09-13T10:48:09 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="endExtentTest()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="endExtentTest" is-config="true" duration-ms="1" started-at="2019-09-13T10:48:09 PDT" finished-at="2019-09-13T10:48:09 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtentTest -->
+        <test-method status="PASS" signature="endExtentReport()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="endExtentReport" is-config="true" duration-ms="775" started-at="2019-09-13T10:48:12 PDT" finished-at="2019-09-13T10:48:13 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtentReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="tearDown" is-config="true" duration-ms="7113" started-at="2019-09-13T10:48:13 PDT" finished-at="2019-09-13T10:48:20 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rohan.testcases.LoginTest -->
+      <class name="com.rohan.testcases.DemoFail">
+        <test-method status="PASS" signature="initializeExtentTest()[pri:0, instance:com.rohan.testcases.DemoFail@66d18979]" name="initializeExtentTest" is-config="true" duration-ms="1" started-at="2019-09-13T10:48:11 PDT" finished-at="2019-09-13T10:48:11 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtentTest -->
+        <test-method status="FAIL" signature="faliTest()[pri:0, instance:com.rohan.testcases.DemoFail@66d18979]" name="faliTest" duration-ms="706" started-at="2019-09-13T10:48:11 PDT" finished-at="2019-09-13T10:48:12 PDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.rohan.testcases.DemoFail.faliTest(DemoFail.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faliTest -->
+        <test-method status="PASS" signature="endExtentTest()[pri:0, instance:com.rohan.testcases.DemoFail@66d18979]" name="endExtentTest" is-config="true" duration-ms="1" started-at="2019-09-13T10:48:12 PDT" finished-at="2019-09-13T10:48:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtentTest -->
+      </class> <!-- com.rohan.testcases.DemoFail -->
+      <class name="com.rohan.testcases.SearchCar">
+        <test-method status="PASS" signature="initializeExtentTest()[pri:0, instance:com.rohan.testcases.SearchCar@609cd4d8]" name="initializeExtentTest" is-config="true" duration-ms="1" started-at="2019-09-13T10:48:12 PDT" finished-at="2019-09-13T10:48:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtentTest -->
+        <test-method status="PASS" signature="searchCar()[pri:0, instance:com.rohan.testcases.SearchCar@609cd4d8]" name="searchCar" duration-ms="5" started-at="2019-09-13T10:48:12 PDT" finished-at="2019-09-13T10:48:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCar -->
+      </class> <!-- com.rohan.testcases.SearchCar -->
+      <class name="com.rohan.testcases.SearchHotel">
+        <test-method status="PASS" signature="initializeExtentTest()[pri:0, instance:com.rohan.testcases.SearchHotel@7d8704ef]" name="initializeExtentTest" is-config="true" duration-ms="1" started-at="2019-09-13T10:48:12 PDT" finished-at="2019-09-13T10:48:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtentTest -->
+        <test-method status="PASS" signature="searchHotel()[pri:0, instance:com.rohan.testcases.SearchHotel@7d8704ef]" name="searchHotel" duration-ms="7" started-at="2019-09-13T10:48:12 PDT" finished-at="2019-09-13T10:48:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotel -->
+      </class> <!-- com.rohan.testcases.SearchHotel -->
+      <class name="com.rohan.testcases.SearchTour">
+        <test-method status="PASS" signature="initializeExtentTest()[pri:0, instance:com.rohan.testcases.SearchTour@bccb269]" name="initializeExtentTest" is-config="true" duration-ms="1" started-at="2019-09-13T10:48:12 PDT" finished-at="2019-09-13T10:48:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtentTest -->
+        <test-method status="PASS" signature="searchTour()[pri:0, instance:com.rohan.testcases.SearchTour@bccb269]" name="searchTour" duration-ms="7" started-at="2019-09-13T10:48:12 PDT" finished-at="2019-09-13T10:48:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTour -->
+      </class> <!-- com.rohan.testcases.SearchTour -->
+      <class name="com.rohan.testcases.SearchFlight">
+        <test-method status="PASS" signature="initializeExtentTest()[pri:0, instance:com.rohan.testcases.SearchFlight@17f7cd29]" name="initializeExtentTest" is-config="true" duration-ms="1" started-at="2019-09-13T10:48:12 PDT" finished-at="2019-09-13T10:48:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtentTest -->
+        <test-method status="PASS" signature="searchFlight()[pri:0, instance:com.rohan.testcases.SearchFlight@17f7cd29]" name="searchFlight" duration-ms="6" started-at="2019-09-13T10:48:12 PDT" finished-at="2019-09-13T10:48:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlight -->
+      </class> <!-- com.rohan.testcases.SearchFlight -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

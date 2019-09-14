@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.rohan.listeners.TestListener"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.rohan.testcases.LoginTest" />
+			<class name="com.rohan.testcases.LogoutTest" />
+			<class name="com.rohan.testcases.DemoFail" />
+			<class name="com.rohan.testcases.SearchTour" />
+			<class name="com.rohan.testcases.SearchCar" />
+			<class name="com.rohan.testcases.SearchFlight" />
+			<class name="com.rohan.testcases.SearchHotel" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
