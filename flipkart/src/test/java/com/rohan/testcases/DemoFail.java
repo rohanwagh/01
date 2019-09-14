@@ -30,7 +30,7 @@ public class DemoFail extends TestBase
 	public void faliTest() throws IOException, InterruptedException 
 	{
 		
-		test.log(LogStatus.ERROR, "DemoFail Test Failed");
+		test.log(LogStatus.ERROR, "DemoFail Test Failed!!!");
 		File source_file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(source_file, new File(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\extentReports\\DemoFail.png"));
 		test.log(LogStatus.FAIL, test.addScreenCapture(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\extentReports\\DemoFail.png"));
