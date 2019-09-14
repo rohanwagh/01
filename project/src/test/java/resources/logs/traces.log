@@ -283,3 +283,27 @@
 20:05:01.854 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case started
 20:05:01.855 [main] INFO  com.rohan.testcases.SearchHotel - Hotel Searched successfully
 20:05:01.859 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case completed successfully
+20:09:08.366 [main] INFO  com.rohan.base.TestBase - Config file lodded
+20:09:08.376 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+20:09:16.906 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+20:09:25.522 [main] WARN  com.rohan.base.TestBase - Driver initialized
+20:09:25.703 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+20:09:31.872 [main] INFO  com.rohan.testcases.LoginTest - Login Test Success
+20:09:33.881 [main] INFO  com.rohan.listeners.TestListener - logIn test case completed successfully
+20:09:33.891 [main] INFO  com.rohan.listeners.TestListener - logOut test case started
+20:09:36.744 [main] INFO  com.rohan.testcases.LogoutTest - Logout Test Success
+20:09:36.745 [main] INFO  com.rohan.listeners.TestListener - logOut test case completed successfully
+20:09:36.750 [main] INFO  com.rohan.listeners.TestListener - faliTest test case started
+20:09:37.509 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
+20:09:37.518 [main] INFO  com.rohan.listeners.TestListener - searchTour test case started
+20:09:37.519 [main] INFO  com.rohan.testcases.SearchTour - Tour Searched successfully
+20:09:37.520 [main] INFO  com.rohan.listeners.TestListener - searchTour test case completed successfully
+20:09:37.525 [main] INFO  com.rohan.listeners.TestListener - searchCar test case started
+20:09:37.526 [main] INFO  com.rohan.testcases.SearchCar - Car Searched successfully
+20:09:37.529 [main] INFO  com.rohan.listeners.TestListener - searchCar test case completed successfully
+20:09:37.535 [main] INFO  com.rohan.listeners.TestListener - searchFlight test case started
+20:09:37.535 [main] INFO  com.rohan.testcases.SearchFlight - Flight Searched successfully
+20:09:37.537 [main] INFO  com.rohan.listeners.TestListener - searchFlight test case completed successfully
+20:09:37.547 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case started
+20:09:37.547 [main] INFO  com.rohan.testcases.SearchHotel - Hotel Searched successfully
+20:09:37.549 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case completed successfully
