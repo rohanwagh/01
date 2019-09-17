@@ -117,7 +117,7 @@ public class TestBase {
 		report.flush();
 	}
 	
-	public ArrayList<ArrayList<String>> readLoginData(String sheetName) throws IOException
+	public ArrayList<ArrayList<String>> readData(String sheetName) throws IOException
 	{
 		File file =    new File(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\excel\\testData.xlsx");
 		FileInputStream inputStream = new FileInputStream(file);

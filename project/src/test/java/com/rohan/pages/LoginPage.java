@@ -16,9 +16,12 @@ public class LoginPage extends TestBase
 			
 			public boolean Login() throws IOException
 			{
-				ArrayList<ArrayList<String>> data = readLoginData(config.getProperty("loginDataSheet"));
+				ArrayList<ArrayList<String>> data = readData(config.getProperty("loginDataSheet"));
+				if(data.get(0).get(2).equalsIgnoreCase("valid"))
+				{
 				driver.findElement(userName).sendKeys(data.get(0).get(0));
 				driver.findElement(password).sendKeys(data.get(0).get(1));
+				}
 				driver.findElement(loginButton).click();
 				return true;
 			}
