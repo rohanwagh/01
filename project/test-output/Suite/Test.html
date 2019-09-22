@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 20 14:04:18 IST 2019</td>
+<td>Started on:</td><td>Sat Sep 21 13:47:10 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6360 ms)</td>
+<tr><td>Total time:</td><td>16 seconds (16445 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,32 +76,38 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.rohan.testcases.LoginTest.logIn()'><b>logIn</b><br>Test class: com.rohan.testcases.LoginTest</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button style=&quot;font-size: 16px;&quot; type=&quot;submit&quot; class=&quot;btn btn-action btn-lg btn-block loginbtn&quot;&gt;...&lt;/button&gt; is not clickable at point (673, 532). Other element would receive the click: &lt;a aria-label=&quot;learn more about cookies&quot; role=&quot;button&quot; tabindex=&quot;0&quot; class=&quot;cc-link&quot; href=&quot;https://www.phptravels.net/demo/cookies-policy&quot; rel=&quot;noopener noreferrer nofollow&quot; target=&quot;_blank&quot;&gt;...&lt;/a&gt;
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;username&apos;]&quot;}
   (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
 System info: host: &apos;ROHAN-LAPTOP&apos;, ip: &apos;192.168.43.202&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Rohan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8da27f0955677afc9df77a1f4fffada
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Rohan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ed5a937e018791133e344fe3b98fd4a4
+*** Element info: {Using=xpath, value=//input[@name=&apos;username&apos;]}
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at com.rohan.pages.LoginPage.Login(LoginPage.java:32)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at com.rohan.pages.LoginPage.Login(LoginPage.java:27)
 	at com.rohan.testcases.LoginTest.logIn(LoginTest.java:33)
 	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace818785904", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace818785904'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button style=&quot;font-size: 16px;&quot; type=&quot;submit&quot; class=&quot;btn btn-action btn-lg btn-block loginbtn&quot;&gt;...&lt;/button&gt; is not clickable at point (673, 532). Other element would receive the click: &lt;a aria-label=&quot;learn more about cookies&quot; role=&quot;button&quot; tabindex=&quot;0&quot; class=&quot;cc-link&quot; href=&quot;https://www.phptravels.net/demo/cookies-policy&quot; rel=&quot;noopener noreferrer nofollow&quot; target=&quot;_blank&quot;&gt;...&lt;/a&gt;
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1800605369", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1800605369'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;username&apos;]&quot;}
   (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
 System info: host: &apos;ROHAN-LAPTOP&apos;, ip: &apos;192.168.43.202&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Rohan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8da27f0955677afc9df77a1f4fffada
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Rohan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ed5a937e018791133e344fe3b98fd4a4
+*** Element info: {Using=xpath, value=//input[@name=&apos;username&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -112,9 +118,11 @@ Session ID: c8da27f0955677afc9df77a1f4fffada
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at com.rohan.pages.LoginPage.Login(LoginPage.java:32)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at com.rohan.pages.LoginPage.Login(LoginPage.java:27)
 	at com.rohan.testcases.LoginTest.logIn(LoginTest.java:33)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -145,7 +153,7 @@ Session ID: c8da27f0955677afc9df77a1f4fffada
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>6</td>
+<td>16</td>
 <td>com.rohan.testcases.LoginTest@305b7c14</td></tr>
 </table><p>
 </body>

@@ -16,7 +16,7 @@ public class SearchHotel extends TestBase
 	{
 		test= report.startTest("Search Hotel Test");
 	}
-//	@Test
+	@Test
 	public void searchHotel()
 	{
 		log.info("Hotel Searched successfully");

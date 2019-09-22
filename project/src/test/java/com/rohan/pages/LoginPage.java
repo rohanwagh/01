@@ -19,7 +19,7 @@ public class LoginPage extends TestBase
 			By loginButton		=By.xpath(or.getProperty("loginButton"));
 			
 			
-			public boolean Login() throws IOException
+			public boolean Login() throws IOException, InterruptedException
 			{
 				ArrayList<ArrayList<String>> data = readData(config.getProperty("loginDataSheet"));
 				if(data.get(0).get(2).equalsIgnoreCase("valid"))
@@ -27,6 +27,7 @@ public class LoginPage extends TestBase
 				driver.findElement(userName).sendKeys(data.get(0).get(0));
 				driver.findElement(password).sendKeys(data.get(0).get(1));
 				}
+				Thread.sleep(5000);
 				FluentWait<WebDriver> wait = new FluentWait<WebDriver>(driver);
 				wait.until(ExpectedConditions.elementToBeClickable(loginButton));
 				driver.findElement(loginButton).click();

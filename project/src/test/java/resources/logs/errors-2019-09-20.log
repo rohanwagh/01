@@ -1,0 +1,6 @@
+12:32:52.898 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+12:32:54.567 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
+12:32:59.634 [main] FATAL com.rohan.listeners.TestListener - searchFlight test case failed
+12:38:02.354 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+12:40:21.992 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+13:24:54.921 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed

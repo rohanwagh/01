@@ -2,42 +2,46 @@
 <testng-results skipped="0" failed="1" ignored="18" total="19" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="6360" started-at="2019-09-20T14:04:18 IST" finished-at="2019-09-20T14:04:25 IST">
+  <suite name="Suite" duration-ms="16445" started-at="2019-09-21T13:47:10 IST" finished-at="2019-09-21T13:47:26 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="6360" started-at="2019-09-20T14:04:18 IST" finished-at="2019-09-20T14:04:25 IST">
+    <test name="Test" duration-ms="16445" started-at="2019-09-21T13:47:10 IST" finished-at="2019-09-21T13:47:26 IST">
       <class name="com.rohan.testcases.LoginTest">
-        <test-method status="PASS" signature="initializeExtentReports()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="initializeExtentReports" is-config="true" duration-ms="205" started-at="2019-09-20T14:03:20 IST" finished-at="2019-09-20T14:03:20 IST">
+        <test-method status="PASS" signature="initializeExtentReports()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="initializeExtentReports" is-config="true" duration-ms="204" started-at="2019-09-21T13:46:06 IST" finished-at="2019-09-21T13:46:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeExtentReports -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="setUp" is-config="true" duration-ms="58100" started-at="2019-09-20T14:03:20 IST" finished-at="2019-09-20T14:04:18 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="setUp" is-config="true" duration-ms="63509" started-at="2019-09-21T13:46:06 IST" finished-at="2019-09-21T13:47:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initializeExtentTest()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="initializeExtentTest" is-config="true" duration-ms="14" started-at="2019-09-20T14:04:18 IST" finished-at="2019-09-20T14:04:18 IST">
+        <test-method status="PASS" signature="initializeExtentTest()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="initializeExtentTest" is-config="true" duration-ms="13" started-at="2019-09-21T13:47:10 IST" finished-at="2019-09-21T13:47:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeExtentTest -->
-        <test-method status="FAIL" signature="logIn()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="logIn" duration-ms="6233" started-at="2019-09-20T14:04:18 IST" finished-at="2019-09-20T14:04:24 IST">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method status="FAIL" signature="logIn()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="logIn" duration-ms="16305" started-at="2019-09-21T13:47:10 IST" finished-at="2019-09-21T13:47:26 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[element click intercepted: Element <button style="font-size: 16px;" type="submit" class="btn btn-action btn-lg btn-block loginbtn">...</button> is not clickable at point (673, 532). Other element would receive the click: <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.phptravels.net/demo/cookies-policy" rel="noopener noreferrer nofollow" target="_blank">...</a>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
   (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
 System info: host: 'ROHAN-LAPTOP', ip: '192.168.43.202', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Rohan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8da27f0955677afc9df77a1f4fffada]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Rohan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ed5a937e018791133e344fe3b98fd4a4
+*** Element info: {Using=xpath, value=//input[@name='username']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button style="font-size: 16px;" type="submit" class="btn btn-action btn-lg btn-block loginbtn">...</button> is not clickable at point (673, 532). Other element would receive the click: <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.phptravels.net/demo/cookies-policy" rel="noopener noreferrer nofollow" target="_blank">...</a>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
   (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
 System info: host: 'ROHAN-LAPTOP', ip: '192.168.43.202', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Rohan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8da27f0955677afc9df77a1f4fffada
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Rohan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ed5a937e018791133e344fe3b98fd4a4
+*** Element info: {Using=xpath, value=//input[@name='username']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -48,9 +52,11 @@ at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpRespo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at com.rohan.pages.LoginPage.Login(LoginPage.java:32)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at com.rohan.pages.LoginPage.Login(LoginPage.java:27)
 at com.rohan.testcases.LoginTest.logIn(LoginTest.java:33)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -82,15 +88,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method status="PASS" signature="endExtentTest()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="endExtentTest" is-config="true" duration-ms="0" started-at="2019-09-20T14:04:25 IST" finished-at="2019-09-20T14:04:25 IST">
+        <test-method status="PASS" signature="endExtentTest()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="endExtentTest" is-config="true" duration-ms="0" started-at="2019-09-21T13:47:26 IST" finished-at="2019-09-21T13:47:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endExtentTest -->
-        <test-method status="PASS" signature="endExtentReport()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="endExtentReport" is-config="true" duration-ms="840" started-at="2019-09-20T14:04:25 IST" finished-at="2019-09-20T14:04:25 IST">
+        <test-method status="PASS" signature="endExtentReport()[pri:0, instance:com.rohan.testcases.LoginTest@305b7c14]" name="endExtentReport" is-config="true" duration-ms="830" started-at="2019-09-21T13:47:26 IST" finished-at="2019-09-21T13:47:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endExtentReport -->

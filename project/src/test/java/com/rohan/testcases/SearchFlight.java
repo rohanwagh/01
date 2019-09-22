@@ -17,7 +17,7 @@ public class SearchFlight extends TestBase
 	{
 		test= report.startTest("Search Flight Test");
 	}
-//	@Test
+	@Test
 	public void searchFlight()
 	{
 		

@@ -26,7 +26,7 @@ public class DemoFail extends TestBase
 	{
 		test = report.startTest("failTest");
 	}
-//	@Test
+	@Test
 	public void failTest() throws IOException, InterruptedException 
 	{
 		
