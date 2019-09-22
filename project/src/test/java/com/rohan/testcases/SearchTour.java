@@ -16,7 +16,7 @@ public class SearchTour extends TestBase
 	{
 		test= report.startTest("Search Tour Test");
 	}
-	@Test
+//	@Test
 	public void searchTour()
 	{
 		log.info("Tour Searched successfully");

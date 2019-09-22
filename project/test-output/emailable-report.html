@@ -9,19 +9,28 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">16,375</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">6,360</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.rohan.testcases.DemoFail</td><td><a href="#m0">faliTest</a></td><td rowspan="1">1568692030375</td><td rowspan="1">845</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.rohan.testcases.LoginTest</td><td><a href="#m1">logIn</a></td><td rowspan="1">1568692015081</td><td rowspan="1">9053</td></tr><tr class="passedodd"><td rowspan="1">com.rohan.testcases.LogoutTest</td><td><a href="#m2">logOut</a></td><td rowspan="1">1568692024160</td><td rowspan="1">6207</td></tr><tr class="passedeven"><td rowspan="1">com.rohan.testcases.SearchCar</td><td><a href="#m3">searchCar</a></td><td rowspan="1">1568692031266</td><td rowspan="1">4</td></tr><tr class="passedodd"><td rowspan="1">com.rohan.testcases.SearchFlight</td><td><a href="#m4">searchFlight</a></td><td rowspan="1">1568692031275</td><td rowspan="1">4</td></tr><tr class="passedeven"><td rowspan="1">com.rohan.testcases.SearchHotel</td><td><a href="#m5">searchHotel</a></td><td rowspan="1">1568692031284</td><td rowspan="1">4</td></tr><tr class="passedodd"><td rowspan="1">com.rohan.testcases.SearchTour</td><td><a href="#m6">searchTour</a></td><td rowspan="1">1568692031246</td><td rowspan="1">5</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.rohan.testcases.LoginTest</td><td><a href="#m0">logIn</a></td><td rowspan="1">1568968458753</td><td rowspan="1">6233</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.rohan.testcases.DemoFail#faliTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: did not expect to find [true] but found [false]
-	at com.rohan.testcases.DemoFail.faliTest(DemoFail.java:37)
+<h2>Test</h2><h3 id="m0">com.rohan.testcases.LoginTest#logIn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button style=&quot;font-size: 16px;&quot; type=&quot;submit&quot; class=&quot;btn btn-action btn-lg btn-block loginbtn&quot;&gt;...&lt;/button&gt; is not clickable at point (673, 532). Other element would receive the click: &lt;a aria-label=&quot;learn more about cookies&quot; role=&quot;button&quot; tabindex=&quot;0&quot; class=&quot;cc-link&quot; href=&quot;https://www.phptravels.net/demo/cookies-policy&quot; rel=&quot;noopener noreferrer nofollow&quot; target=&quot;_blank&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=77.0.3865.90)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;ROHAN-LAPTOP&apos;, ip: &apos;192.168.43.202&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Rohan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c8da27f0955677afc9df77a1f4fffada
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.rohan.pages.LoginPage.Login(LoginPage.java:32)
+	at com.rohan.testcases.LoginTest.logIn(LoginTest.java:33)
 	at java.util.ArrayList.forEach(Unknown Source)
 ... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.rohan.testcases.LoginTest#logIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.rohan.testcases.LogoutTest#logOut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.rohan.testcases.SearchCar#searchCar</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.rohan.testcases.SearchFlight#searchFlight</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.rohan.testcases.SearchHotel#searchHotel</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.rohan.testcases.SearchTour#searchTour</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

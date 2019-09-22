@@ -379,3 +379,194 @@
 20:47:11.287 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case started
 20:47:11.288 [main] INFO  com.rohan.testcases.SearchHotel - Hotel Searched successfully
 20:47:11.291 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case completed successfully
+11:26:52.495 [main] INFO  com.rohan.base.TestBase - Config file lodded
+11:26:52.504 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+11:26:59.783 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+11:27:26.845 [main] WARN  com.rohan.base.TestBase - Driver initialized
+11:27:27.027 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+11:27:27.107 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+11:27:27.180 [main] INFO  com.rohan.listeners.TestListener - faliTest test case started
+11:27:28.640 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
+11:27:28.662 [main] INFO  com.rohan.listeners.TestListener - searchTour test case started
+11:27:28.662 [main] INFO  com.rohan.testcases.SearchTour - Tour Searched successfully
+11:27:28.674 [main] INFO  com.rohan.listeners.TestListener - searchTour test case completed successfully
+11:27:28.683 [main] INFO  com.rohan.listeners.TestListener - searchCar test case started
+11:27:28.684 [main] INFO  com.rohan.testcases.SearchCar - Car Searched successfully
+11:27:28.693 [main] INFO  com.rohan.listeners.TestListener - searchCar test case completed successfully
+11:27:28.700 [main] INFO  com.rohan.listeners.TestListener - searchFlight test case started
+11:27:28.716 [main] FATAL com.rohan.listeners.TestListener - searchFlight test case failed
+11:27:28.734 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case started
+11:27:28.735 [main] INFO  com.rohan.testcases.SearchHotel - Hotel Searched successfully
+11:27:28.745 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case completed successfully
+12:09:18.975 [main] INFO  com.rohan.base.TestBase - Config file lodded
+12:09:18.992 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+12:09:25.575 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+12:11:49.226 [main] WARN  com.rohan.base.TestBase - Driver initialized
+12:11:49.335 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+12:12:10.829 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+12:12:10.845 [main] INFO  com.rohan.listeners.TestListener - faliTest test case started
+12:12:11.493 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
+12:12:11.514 [main] INFO  com.rohan.listeners.TestListener - searchTour test case started
+12:12:11.515 [main] INFO  com.rohan.testcases.SearchTour - Tour Searched successfully
+12:12:11.532 [main] INFO  com.rohan.listeners.TestListener - searchTour test case completed successfully
+12:12:11.542 [main] INFO  com.rohan.listeners.TestListener - searchCar test case started
+12:12:11.542 [main] INFO  com.rohan.testcases.SearchCar - Car Searched successfully
+12:12:11.559 [main] INFO  com.rohan.listeners.TestListener - searchCar test case completed successfully
+12:12:11.574 [main] INFO  com.rohan.listeners.TestListener - searchFlight test case started
+12:12:21.638 [main] FATAL com.rohan.listeners.TestListener - searchFlight test case failed
+12:12:21.645 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case started
+12:12:21.646 [main] INFO  com.rohan.testcases.SearchHotel - Hotel Searched successfully
+12:12:21.648 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case completed successfully
+12:12:37.760 [main] INFO  com.rohan.base.TestBase - Config file lodded
+12:12:37.766 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+12:12:42.012 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+12:16:17.178 [main] WARN  com.rohan.base.TestBase - Driver initialized
+12:16:17.296 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+12:16:27.366 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+12:16:27.417 [main] INFO  com.rohan.listeners.TestListener - faliTest test case started
+12:16:28.034 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
+12:16:28.068 [main] INFO  com.rohan.listeners.TestListener - searchTour test case started
+12:16:28.068 [main] INFO  com.rohan.testcases.SearchTour - Tour Searched successfully
+12:16:28.072 [main] INFO  com.rohan.listeners.TestListener - searchTour test case completed successfully
+12:16:28.080 [main] INFO  com.rohan.listeners.TestListener - searchCar test case started
+12:16:28.080 [main] INFO  com.rohan.testcases.SearchCar - Car Searched successfully
+12:16:28.083 [main] INFO  com.rohan.listeners.TestListener - searchCar test case completed successfully
+12:16:28.087 [main] INFO  com.rohan.listeners.TestListener - searchFlight test case started
+12:16:38.174 [main] FATAL com.rohan.listeners.TestListener - searchFlight test case failed
+12:16:38.181 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case started
+12:16:38.181 [main] INFO  com.rohan.testcases.SearchHotel - Hotel Searched successfully
+12:16:38.184 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case completed successfully
+12:17:07.091 [main] INFO  com.rohan.base.TestBase - Config file lodded
+12:17:07.099 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+12:17:11.352 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+12:17:47.304 [main] WARN  com.rohan.base.TestBase - Driver initialized
+12:17:47.399 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+12:17:57.526 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+12:17:57.535 [main] INFO  com.rohan.listeners.TestListener - faliTest test case started
+12:17:58.143 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
+12:17:58.156 [main] INFO  com.rohan.listeners.TestListener - searchTour test case started
+12:17:58.156 [main] INFO  com.rohan.testcases.SearchTour - Tour Searched successfully
+12:17:58.159 [main] INFO  com.rohan.listeners.TestListener - searchTour test case completed successfully
+12:17:58.163 [main] INFO  com.rohan.listeners.TestListener - searchCar test case started
+12:17:58.164 [main] INFO  com.rohan.testcases.SearchCar - Car Searched successfully
+12:17:58.168 [main] INFO  com.rohan.listeners.TestListener - searchCar test case completed successfully
+12:17:58.172 [main] INFO  com.rohan.listeners.TestListener - searchFlight test case started
+12:18:08.211 [main] FATAL com.rohan.listeners.TestListener - searchFlight test case failed
+12:18:08.223 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case started
+12:18:08.224 [main] INFO  com.rohan.testcases.SearchHotel - Hotel Searched successfully
+12:18:08.227 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case completed successfully
+12:18:38.000 [main] INFO  com.rohan.base.TestBase - Config file lodded
+12:18:38.006 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+12:18:42.191 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+12:18:48.868 [main] WARN  com.rohan.base.TestBase - Driver initialized
+12:18:49.003 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+12:18:59.127 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+12:18:59.150 [main] INFO  com.rohan.listeners.TestListener - faliTest test case started
+12:18:59.782 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
+12:18:59.793 [main] INFO  com.rohan.listeners.TestListener - searchTour test case started
+12:18:59.793 [main] INFO  com.rohan.testcases.SearchTour - Tour Searched successfully
+12:18:59.796 [main] INFO  com.rohan.listeners.TestListener - searchTour test case completed successfully
+12:18:59.814 [main] INFO  com.rohan.listeners.TestListener - searchCar test case started
+12:18:59.815 [main] INFO  com.rohan.testcases.SearchCar - Car Searched successfully
+12:18:59.820 [main] INFO  com.rohan.listeners.TestListener - searchCar test case completed successfully
+12:18:59.825 [main] INFO  com.rohan.listeners.TestListener - searchFlight test case started
+12:19:09.866 [main] FATAL com.rohan.listeners.TestListener - searchFlight test case failed
+12:19:09.873 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case started
+12:19:09.874 [main] INFO  com.rohan.testcases.SearchHotel - Hotel Searched successfully
+12:19:09.876 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case completed successfully
+12:20:25.073 [main] INFO  com.rohan.base.TestBase - Config file lodded
+12:20:25.079 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+12:20:29.593 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+12:21:54.058 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+12:21:54.068 [main] INFO  com.rohan.listeners.TestListener - logIn test case skiipped
+12:21:54.108 [main] INFO  com.rohan.listeners.TestListener - faliTest test case started
+12:21:54.117 [main] INFO  com.rohan.listeners.TestListener - faliTest test case skiipped
+12:21:54.141 [main] INFO  com.rohan.listeners.TestListener - searchTour test case started
+12:21:54.146 [main] INFO  com.rohan.listeners.TestListener - searchTour test case skiipped
+12:21:54.155 [main] INFO  com.rohan.listeners.TestListener - searchCar test case started
+12:21:54.159 [main] INFO  com.rohan.listeners.TestListener - searchCar test case skiipped
+12:21:54.173 [main] INFO  com.rohan.listeners.TestListener - searchFlight test case started
+12:21:54.202 [main] INFO  com.rohan.listeners.TestListener - searchFlight test case skiipped
+12:21:54.212 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case started
+12:21:54.216 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case skiipped
+12:24:36.255 [main] INFO  com.rohan.base.TestBase - Config file lodded
+12:24:36.261 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+12:24:40.697 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+12:25:42.465 [main] WARN  com.rohan.base.TestBase - Driver initialized
+12:25:42.667 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+12:25:47.890 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+12:25:47.900 [main] INFO  com.rohan.listeners.TestListener - faliTest test case started
+12:25:49.338 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
+12:25:49.352 [main] INFO  com.rohan.listeners.TestListener - searchTour test case started
+12:25:49.353 [main] INFO  com.rohan.testcases.SearchTour - Tour Searched successfully
+12:25:49.357 [main] INFO  com.rohan.listeners.TestListener - searchTour test case completed successfully
+12:25:49.364 [main] INFO  com.rohan.listeners.TestListener - searchCar test case started
+12:25:49.365 [main] INFO  com.rohan.testcases.SearchCar - Car Searched successfully
+12:25:49.370 [main] INFO  com.rohan.listeners.TestListener - searchCar test case completed successfully
+12:25:49.377 [main] INFO  com.rohan.listeners.TestListener - searchFlight test case started
+12:25:54.433 [main] FATAL com.rohan.listeners.TestListener - searchFlight test case failed
+12:25:54.438 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case started
+12:25:54.440 [main] INFO  com.rohan.testcases.SearchHotel - Hotel Searched successfully
+12:25:54.443 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case completed successfully
+12:32:13.051 [main] INFO  com.rohan.base.TestBase - Config file lodded
+12:32:13.057 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+12:32:17.165 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+12:32:47.635 [main] WARN  com.rohan.base.TestBase - Driver initialized
+12:32:47.793 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+12:32:52.898 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+12:32:52.924 [main] INFO  com.rohan.listeners.TestListener - faliTest test case started
+12:32:54.567 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
+12:32:54.579 [main] INFO  com.rohan.listeners.TestListener - searchTour test case started
+12:32:54.579 [main] INFO  com.rohan.testcases.SearchTour - Tour Searched successfully
+12:32:54.584 [main] INFO  com.rohan.listeners.TestListener - searchTour test case completed successfully
+12:32:54.588 [main] INFO  com.rohan.listeners.TestListener - searchCar test case started
+12:32:54.589 [main] INFO  com.rohan.testcases.SearchCar - Car Searched successfully
+12:32:54.591 [main] INFO  com.rohan.listeners.TestListener - searchCar test case completed successfully
+12:32:54.596 [main] INFO  com.rohan.listeners.TestListener - searchFlight test case started
+12:32:59.634 [main] FATAL com.rohan.listeners.TestListener - searchFlight test case failed
+12:32:59.639 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case started
+12:32:59.640 [main] INFO  com.rohan.testcases.SearchHotel - Hotel Searched successfully
+12:32:59.642 [main] INFO  com.rohan.listeners.TestListener - searchHotel test case completed successfully
+12:36:49.886 [main] INFO  com.rohan.base.TestBase - Config file lodded
+12:36:49.892 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+12:36:54.133 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+12:37:57.058 [main] WARN  com.rohan.base.TestBase - Driver initialized
+12:37:57.191 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+12:38:02.354 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+12:39:39.023 [main] INFO  com.rohan.base.TestBase - Config file lodded
+12:39:39.030 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+12:39:43.372 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+12:40:16.650 [main] WARN  com.rohan.base.TestBase - Driver initialized
+12:40:16.796 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+12:40:21.992 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+13:24:04.614 [main] INFO  com.rohan.base.TestBase - Config file lodded
+13:24:04.621 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+13:24:10.863 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+13:24:49.609 [main] WARN  com.rohan.base.TestBase - Driver initialized
+13:24:49.734 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+13:24:54.921 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+13:39:18.257 [main] INFO  com.rohan.base.TestBase - Config file lodded
+13:39:18.264 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+13:39:24.555 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+13:40:00.642 [main] WARN  com.rohan.base.TestBase - Driver initialized
+13:40:00.824 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+13:40:11.885 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+13:51:04.814 [main] INFO  com.rohan.base.TestBase - Config file lodded
+13:51:04.821 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+13:51:09.772 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+13:52:44.199 [main] WARN  com.rohan.base.TestBase - Driver initialized
+13:52:44.381 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+13:52:52.865 [main] INFO  com.rohan.testcases.LoginTest - Login Test Success
+13:52:54.875 [main] INFO  com.rohan.listeners.TestListener - logIn test case completed successfully
+14:00:28.608 [main] INFO  com.rohan.base.TestBase - Config file lodded
+14:00:28.615 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+14:00:35.966 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+14:01:52.393 [main] WARN  com.rohan.base.TestBase - Driver initialized
+14:01:52.551 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+14:01:58.992 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+14:03:20.558 [main] INFO  com.rohan.base.TestBase - Config file lodded
+14:03:20.564 [main] INFO  com.rohan.base.TestBase - Object Repository Lodded
+14:03:24.907 [main] DEBUG com.rohan.base.TestBase - Chrome Driver created
+14:04:18.649 [main] WARN  com.rohan.base.TestBase - Driver initialized
+14:04:18.778 [main] INFO  com.rohan.listeners.TestListener - logIn test case started
+14:04:25.000 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed

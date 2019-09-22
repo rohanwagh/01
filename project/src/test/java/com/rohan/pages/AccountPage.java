@@ -12,6 +12,7 @@ public class AccountPage extends TestBase
 
 	public boolean logOut()
 	{
+		mainFrame();
 		driver.findElement(myAccDropDown).click();
 		driver.findElement(logout).click();
 		return true;	

@@ -4,6 +4,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import com.rohan.base.TestBase;
 
 public class LoginPage extends TestBase
@@ -22,6 +27,8 @@ public class LoginPage extends TestBase
 				driver.findElement(userName).sendKeys(data.get(0).get(0));
 				driver.findElement(password).sendKeys(data.get(0).get(1));
 				}
+				FluentWait<WebDriver> wait = new FluentWait<WebDriver>(driver);
+				wait.until(ExpectedConditions.elementToBeClickable(loginButton));
 				driver.findElement(loginButton).click();
 				return true;
 			}

@@ -6,17 +6,16 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.rohan.testcases.DemoFail">
+      <class name="com.rohan.testcases.LoginTest">
         <methods>
           <include name="endExtentReport"/>
-          <include name="initializeExtentTest"/>
-          <include name="faliTest"/>
           <include name="endExtentTest"/>
-          <include name="tearDown"/>
+          <include name="logIn"/>
           <include name="initializeExtentReports"/>
+          <include name="initializeExtentTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.rohan.testcases.DemoFail -->
+      </class> <!-- com.rohan.testcases.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

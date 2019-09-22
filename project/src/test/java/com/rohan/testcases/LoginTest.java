@@ -25,7 +25,9 @@ public class LoginTest extends TestBase
 	@Test
 	public void logIn() throws IOException, InterruptedException 
 	{
+		
 		HomePage h1= new HomePage();
+		mainFrame();
 		h1.navigateToLoginPage();
 		LoginPage l1= new LoginPage();
 		l1.Login();

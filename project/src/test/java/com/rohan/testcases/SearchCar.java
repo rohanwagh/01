@@ -19,7 +19,7 @@ public class SearchCar extends TestBase
 		test= report.startTest("Search Car Test");
 	}
 	
-	@Test
+//	@Test
 	public void searchCar()
 	{
 		log.info("Car Searched successfully");

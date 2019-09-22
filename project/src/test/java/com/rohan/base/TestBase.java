@@ -14,7 +14,9 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -37,6 +39,7 @@ public class TestBase {
 	public static ExtentReports report;
 	public static ExtentTest test;
 	public static Logger log = LogManager.getLogger();
+	
 	
 	@BeforeSuite
 	public static void initializeExtentReports()
@@ -96,19 +99,20 @@ public class TestBase {
 		}
 		driver.get(config.getProperty("testSiteUrl"));
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		log.warn("Driver initialized");
+		
 	}
 	
-	@AfterSuite
-	public void tearDown() throws InterruptedException 
-	{
-		Thread.sleep(3000);
-		if (driver != null) {
-			driver.close();
-			driver = null;
-		}
-	}
+//	@AfterSuite
+//	public void tearDown() throws InterruptedException 
+//	{
+//		Thread.sleep(3000);
+//		if (driver != null) {
+//			driver.close();
+//			driver = null;
+//		}
+//	}
 	
 	@AfterSuite
 	public void endExtentReport()
@@ -116,6 +120,13 @@ public class TestBase {
 		report.endTest(test);
 		report.flush();
 	}
+	
+	public static void mainFrame()
+	{
+		WebElement frameElement= driver.findElement(By.xpath("//iframe[@class='full-screen-preview__frame']"));
+		driver.switchTo().frame(frameElement);
+	}
+	
 	
 	public ArrayList<ArrayList<String>> readData(String sheetName) throws IOException
 	{

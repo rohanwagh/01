@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
 import com.rohan.base.TestBase;
+import com.rohan.pages.HomePage;
 
 public class SearchFlight extends TestBase
 {
@@ -16,9 +17,12 @@ public class SearchFlight extends TestBase
 	{
 		test= report.startTest("Search Flight Test");
 	}
-	@Test
+//	@Test
 	public void searchFlight()
 	{
+		
+		HomePage h1 = new HomePage();
+		h1.searchFlightCity();
 		log.info("Flight Searched successfully");
 		test.log(LogStatus.PASS, "Flight Searched successfully");
 	}

@@ -1,6 +1,3 @@
-19:56:05.505 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
-20:05:01.793 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
-20:09:37.509 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
-22:38:22.780 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
-06:45:14.673 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
-20:47:11.240 [main] FATAL com.rohan.listeners.TestListener - faliTest test case failed
+13:40:11.885 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+14:01:58.992 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed
+14:04:25.000 [main] FATAL com.rohan.listeners.TestListener - logIn test case failed

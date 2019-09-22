@@ -21,7 +21,7 @@ public class LogoutTest extends TestBase
 	{
 		test = report.startTest("LogoutTest");
 	}
-	@Test(dependsOnMethods = {"com.rohan.testcases.LoginTest.logIn"})
+//	@Test(dependsOnMethods = {"com.rohan.testcases.LoginTest.logIn"})
 	public void logOut() throws IOException
 	{
 		AccountPage a1 = new AccountPage(); 
